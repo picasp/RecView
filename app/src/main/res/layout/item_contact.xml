@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/cvContact"
+    android:elevation="4dp"
+    app:cardCornerRadius="28dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true">
+        <ImageView
+            android:id="@+id/ivAvatar"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/ic_contact"/>
+        <TextView
+            android:id="@+id/tvNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/ivAvatar"
+            android:text="Nama COntact"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"
+            android:layout_marginTop="24dp"/>
+        <TextView
+            android:id="@+id/tvHp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/ivAvatar"
+            android:layout_below="@+id/tvNama"
+            android:text="No. Hp"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp"/>
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="Avaiable"
+            android:textColor="@color/black"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="24dp"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
