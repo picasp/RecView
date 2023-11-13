@@ -23,7 +23,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@+id/ivAvatar"
-            android:text="Nama COntact"
+            android:text="Nama Contact"
             android:fontFamily="sans-serif-black"
             android:textColor="@color/black"
             android:layout_marginTop="24dp"/>
@@ -41,7 +41,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
-            android:text="Avaiable"
+            android:text="Available"
             android:textColor="@color/black"
             android:layout_marginEnd="16dp"
             android:layout_marginTop="24dp"/>
